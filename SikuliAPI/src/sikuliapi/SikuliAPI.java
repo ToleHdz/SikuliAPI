@@ -36,7 +36,16 @@ public class SikuliAPI
             s.type(null, "git push origin Tole.SikuliPrueba\n");
             //s.wait("2");
             
-            s.exists("calculadora.png");
+            Match existeCalculadora = s.exists("calculadora.png");
+            
+            if (existeCalculadora != null) 
+            {
+                System.out.println("Se encuentra la imagen en esta pantalla ");
+            }
+            else
+            {
+                System.out.println("No se encuentra esta imagen en la pantalla");
+            }
         }
         catch(FindFailed e)
         {
