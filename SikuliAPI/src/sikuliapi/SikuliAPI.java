@@ -5,10 +5,9 @@ public class SikuliAPI
 {
     public static void main(String[] args) 
     {
-        //System.out.println("Hola Mundo");
-        
+        //System.out.println("Hola Mundo");       
         Screen s = new Screen();
-                
+        
         try
         {
             /*s.click("src/img/inicio.png", 0);
@@ -52,5 +51,4 @@ public class SikuliAPI
             e.printStackTrace();
         }
     }
-    
 }
