@@ -7,7 +7,7 @@ public class SikuliAPI
     {
         //System.out.println("Hola Mundo");       
         Screen s = new Screen();
-        
+       
         try
         {
             /*s.click("src/img/inicio.png", 0);
